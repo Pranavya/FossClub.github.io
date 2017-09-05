@@ -8,6 +8,7 @@ app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     .when("/", {templateUrl: "template/partials/home.html", controller: "PageCtrl"})
     .when("/projects", {templateUrl: "template/partials/projects.html", controller: "PageCtrl"})
+    .when("/contributors", {templateUrl: "template/partials/contributors.html", controller: "PageCtrl"})
  }]);
 
 
